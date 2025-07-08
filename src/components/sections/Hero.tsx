@@ -56,7 +56,7 @@ function Hero() {
   }
 
   return (
-    <section id="about" className="relative lg:-mt-20 w-full h-screen flex items-center justify-center overflow-hidden">
+    <section id="about" className="relative mt-8 lg:-mt-20 w-full h-screen flex items-center justify-center overflow-hidden">
       {showParticles && (
         <div className="absolute inset-0 w-full h-full">
           <Suspense fallback={null}>
@@ -74,8 +74,8 @@ function Hero() {
         </div>
       )}
       {/* Main Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 h-full flex items-center">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 w-full items-center">
+      <div className="relative   z-10 w-full max-w-7xl mx-auto px-6 h-full flex items-center">
+        <div className=" grid grid-cols-1 lg:grid-cols-12 gap-8 w-full items-center">
           
           <div className="lg:col-span-4 space-y-6">
             <div className="space-y-4">
