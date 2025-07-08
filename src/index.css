@@ -52,4 +52,7 @@
   body {
     font-family: 'Poppins', 'Roboto', sans-serif;
   }
+  html {
+  scroll-behavior: smooth;
+}
 }

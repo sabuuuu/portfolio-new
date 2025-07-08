@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className="w-[80%] ">
+    <section id="contact" className="w-[80%] ">
       <section className="w-full max-w-7xl mx-auto py-20">
         <div className="text-left mb-16">
           <p className="text-[#ead3c1] text-xl mb-2">{t('contact.sectionLabel')}</p>
@@ -176,7 +176,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 };
 

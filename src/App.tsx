@@ -55,6 +55,9 @@ function App() {
                 {item.name}
               </a>
             ))}
+            <div className="mt-4 flex justify-center">
+              <Switch />
+            </div>
           </MobileNavMenu>
         </MobileNav>
       </Navbar>

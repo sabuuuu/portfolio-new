@@ -6,16 +6,13 @@ import SplitText from '../bits/TextAnimations/SplitText/SplitText'
 const Particles = lazy(() => import('../bits/Backgrounds/Particles/Particles'))
 
 function Hero() {
-  // Destructure i18n here to get the current language
   const { t, i18n } = useTranslation()
-  // const [isLoaded, setIsLoaded] = useState(false)
   const [showParticles, setShowParticles] = useState(false)
 
   useEffect(() => {
 
     const timer = setTimeout(() => {
       setShowParticles(true)
-      // setIsLoaded(true)
     }, 500)
 
     return () => clearTimeout(timer)
@@ -59,7 +56,7 @@ function Hero() {
   }
 
   return (
-    <section className="relative -mt-20 w-full h-screen flex items-center justify-center overflow-hidden">
+    <section id="about" className="relative lg:-mt-20 w-full h-screen flex items-center justify-center overflow-hidden">
       {showParticles && (
         <div className="absolute inset-0 w-full h-full">
           <Suspense fallback={null}>

@@ -34,7 +34,7 @@ const Project = () => {
   ];
 
   return (
-    <div className="mt-16 w-[80%]">
+    <section id="projects" className="mt-16 w-[80%]">
       <div className="mb-9">
         <p className="text-[#ead3c1] text-xl">{t('project.sectionLabel')}</p>
         <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('project.title')}</h1>
@@ -129,7 +129,7 @@ const Project = () => {
           {t('project.cta')} <Github size={16} />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 
