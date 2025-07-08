@@ -17,7 +17,7 @@ const techItems = [
   },
   {
     name: "Tailwind CSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://static.cdnlogo.com/logos/t/58/tailwind-css.svg",
   },
   {
     name: "Jest",
@@ -31,7 +31,7 @@ const techItems = [
   },
   {
     name: "NestJS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    icon: "https://static.cdnlogo.com/logos/n/57/nestjs.svg",
   },
   {
     name: "Prisma",

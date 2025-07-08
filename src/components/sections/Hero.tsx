@@ -1,9 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState, useEffect, lazy, Suspense } from 'react'
-import { Github, Linkedin, FileText, ArrowDown } from 'lucide-react'
+import { Mail, Linkedin, FileText, ArrowDown, Github } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import SplitText from '../bits/TextAnimations/SplitText/SplitText'
 const Particles = lazy(() => import('../bits/Backgrounds/Particles/Particles'))
 
 function Hero() {
+  // Destructure i18n here to get the current language
+  const { t, i18n } = useTranslation()
   const [isLoaded, setIsLoaded] = useState(false)
   const [showParticles, setShowParticles] = useState(false)
 
@@ -16,23 +20,32 @@ function Hero() {
     return () => clearTimeout(timer)
   }, [])
 
+
+  const resumePath = i18n.language === 'fr' ? '/fr.pdf' : '/en.pdf';
+
   const socialLinks = [
     {
-      icon: Github,
-      label: 'GitHub',
-      href: 'https://github.com/yourusername',
+      icon: Mail,
+      label: t('hero.social_links.email_label'),
+      href: 'mailto:yafasabb@gmail.com',
       color: 'hover:text-pink-300'
     },
     {
+      icon: Github,
+      label: t('hero.social_links.github_label'),
+      href: 'https://github.com/sabuuuu',
+      color: 'hover:text-blue-300'
+    },
+    {
       icon: Linkedin,
-      label: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      label: t('hero.social_links.linkedin_label'),
+      href: 'https://www.linkedin.com/in/yafasabrina00/',
       color: 'hover:text-rose-300'
     },
     {
       icon: FileText,
-      label: 'Resume',
-      href: '/resume.pdf',
+      label: t('hero.social_links.resume_label'),
+      href: resumePath,
       color: 'hover:text-red-300'
     }
   ]
@@ -69,7 +82,7 @@ function Hero() {
           <div className="lg:col-span-4 space-y-6">
             <div className="space-y-4">
               <SplitText
-                text="Hi, I'm Yafa Sabrina"
+                text={t('hero.greeting')}
                 className="text-lg font-medium text-[#FCF7F8] tracking-wide"
                 splitType="chars"
                 delay={40}
@@ -83,10 +96,7 @@ function Hero() {
               />
               
               <h1 className="text-5xl md:text-6xl font-bold text-[#FCF7F8] leading-tight">
-                Software
-                <span className="block">
-                  Developer
-                </span>
+                {t('hero.title')}
               </h1>
             </div>
 
@@ -98,6 +108,8 @@ function Hero() {
                   <a
                     key={index}
                     href={link.href}
+                    // Add download attribute for the resume link
+                    download={link.icon === FileText ? `Resume-YafaSabrina-${i18n.language}.pdf` : undefined}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`p-5 rounded-xl border border-[#FCF7F8]/20 text-[#FCF7F8] transition-all duration-300 hover:border-[#FCF7F8] hover:scale-105 `}
@@ -110,22 +122,17 @@ function Hero() {
             </div>
           </div>
 
-          <div className="lg:col-span-8 space-y-6">
-            <div className="text-[#FCF7F8] text-lg leading-relaxed space-y-6 max-w-4xl">
-              <p className="text-xl">
-                I'm a passionate software developer with over 3 years of experience crafting 
-                digital solutions that bridge the gap between innovative design and robust functionality. 
-                I specialize in building scalable web applications using modern technologies like React, 
-                Node.js, and cloud platforms.
-              </p>
-              <p>
-                My journey in tech started with a curiosity about how things work under the hood, 
-                and has evolved into a deep commitment to creating user-centered experiences that 
-                not only look beautiful but perform exceptionally. I believe in writing clean, 
-                maintainable code and staying current with industry best practices.
-              </p>
-            </div>
+        <div className="lg:col-span-8 space-y-6">
+          <div className="text-[#FCF7F8] text-lg leading-relaxed space-y-6 max-w-4xl">
+            <p className="text-xl">
+              {t('hero.description_1')}
+            </p>
+            <p>
+              {t('hero.description_2')}
+            </p>
           </div>
+        </div>
+
         </div>
       </div>
 
@@ -134,10 +141,10 @@ function Hero() {
         <button 
           onClick={scrollToNext}
           className="flex flex-col items-center text-rose-300 hover:text-white transition-colors duration-300 group"
-          aria-label="Scroll to next section"
+          aria-label={t('hero.scroll_aria_label')}
         >
           <span className="text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            Scroll Down
+            {t('hero.scroll_indicator')}
           </span>
           <ArrowDown size={24} className="animate-bounce" />
         </button>

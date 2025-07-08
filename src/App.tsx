@@ -11,16 +11,17 @@ import Navbar, {
 import Switch from './components/reusable/Switch'
 import Footer from './components/sections/Footer'
 import Home from './pages/Home'
+import { useTranslation } from 'react-i18next'
 
-const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" }
-];
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const { t } = useTranslation();
+  const navItems = [
+    { name: t("navbar.about"), link: "#about" },
+    { name: t("navbar.projects"), link: "#projects" },
+    { name: t("navbar.contact"), link: "#contact" }
+  ];
   return (
       <div className="min-h-screen flex flex-col bg-[#0a0a0a]">
       <Navbar>
