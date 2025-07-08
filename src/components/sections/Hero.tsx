@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { useState, useEffect, lazy, Suspense } from 'react'
 import { Mail, Linkedin, FileText, ArrowDown, Github } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
@@ -8,13 +8,14 @@ const Particles = lazy(() => import('../bits/Backgrounds/Particles/Particles'))
 function Hero() {
   // Destructure i18n here to get the current language
   const { t, i18n } = useTranslation()
-  const [isLoaded, setIsLoaded] = useState(false)
+  // const [isLoaded, setIsLoaded] = useState(false)
   const [showParticles, setShowParticles] = useState(false)
 
   useEffect(() => {
+
     const timer = setTimeout(() => {
       setShowParticles(true)
-      setIsLoaded(true)
+      // setIsLoaded(true)
     }, 500)
 
     return () => clearTimeout(timer)
