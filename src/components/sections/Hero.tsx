@@ -106,7 +106,6 @@ function Hero() {
                   <a
                     key={index}
                     href={link.href}
-                    // Add download attribute for the resume link
                     download={link.icon === FileText ? `Resume-YafaSabrina-${i18n.language}.pdf` : undefined}
                     target="_blank"
                     rel="noopener noreferrer"

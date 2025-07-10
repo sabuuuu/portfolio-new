@@ -5,10 +5,10 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Salut, moi c’est Yafa Sabrina !",
+    "greeting": "Salut, moi c'est Yafa Sabrina !",
     "title": "Ingénieure logicielle",
-    "description_1": "Je suis ingénieure logicielle passionnée par la transformation d’idées en applications web performantes et élégantes. Depuis plusieurs années, j’utilise des stacks modernes comme React, TypeScript et Node.js, toujours en quête de l’équilibre parfait entre code propre et expérience utilisateur intuitive.",
-    "description_2": "J’adore concevoir des solutions utiles et agréables à utiliser, et parfois juste pour le plaisir (pourquoi pas ?). Qu’il s’agisse d’une plateforme SaaS, d’une appli mobile ou d’un petit side project, je prends plaisir à donner vie aux concepts tout en apprenant constamment. En ce moment, j’explore l’architecture backend, la conception de systèmes et le développement mobile.",
+    "description_1": "Je suis ingénieure logicielle passionnée par la transformation d'idées en applications web performantes et élégantes. Depuis plusieurs années, j'utilise des stacks modernes comme React, TypeScript et Node.js, toujours en quête de l'équilibre parfait entre code propre et expérience utilisateur intuitive.",
+    "description_2": "J'adore concevoir des solutions utiles et agréables à utiliser, et parfois juste pour le plaisir (pourquoi pas ?). Qu'il s'agisse d'une plateforme SaaS, d'une appli mobile ou d'un petit side project, je prends plaisir à donner vie aux concepts tout en apprenant constamment. En ce moment, j'explore l'architecture backend, la conception de systèmes et le développement mobile.",
     "scroll_indicator": "Faites défiler",
     "social_links": {
       "email_label": "Email",
@@ -24,13 +24,13 @@
     "description": "Découvrez mes réalisations récentes qui mettent en avant mes compétences en développement frontend.",
     "cta": "Voir plus sur",
     "projects": {
-        "farmconnect": {
+      "farmconnect": {
         "title": "FarmConnect",
-        "description": "Une plateforme SaaS de gestion d’élevage ovin développée de A à Z. Suivi du troupeau, surveillance sanitaire, gestion des fermes et des utilisateurs, plus lecture de puces RFID via une appli mobile Flutter. J’ai couvert toute la stack avec NestJS, Prisma, React et Tailwind, le tout en sprints Agile hebdomadaires. C’est l’un des premiers projets de ce genre en Algérie dans le domaine de l’agriculture numérique."
-        },
+        "description": "Une plateforme SaaS de gestion d'élevage ovin développée de A à Z. Suivi du troupeau, surveillance sanitaire, gestion des fermes et des utilisateurs, plus lecture de puces RFID via une appli mobile Flutter. J'ai couvert toute la stack avec NestJS, Prisma, React et Tailwind, le tout en sprints Agile hebdomadaires. C'est l'un des premiers projets de ce genre en Algérie dans le domaine de l'agriculture numérique."
+      },
       "savvy": {
-        "title": "Savvy – Traqueur de prix Amazon",
-        "description": "Une web app qui scrute les produits Amazon et envoie des alertes par email lorsque les prix baissent ou qu’un article revient en stock. Construite avec Next.js 14 et des tâches CRON, elle offre un tableau de bord épuré, une validation de formulaire solide et des notifications conviviales."
+        "title": "Savvy – Traqueur de prix Amazon",
+        "description": "Une web app qui scrute les produits Amazon et envoie des alertes par email lorsque les prix baissent ou qu'un article revient en stock. Construite avec Next.js 14 et des tâches CRON, elle offre un tableau de bord épuré, une validation de formulaire solide et des notifications conviviales."
       }
     },
     "ariaLabels": {
@@ -41,8 +41,10 @@
   "contact": {
     "sectionLabel": "Entrons en contact",
     "title": "Contact",
-    "description1": "Une idée, un projet ou juste envie de construire quelque chose de cool ? Je suis toute ouïe.",
-    "description2": "Que vous soyez prêt à démarrer ou simplement curieux, n’hésitez pas à me contacter. Voyons ce qu’on peut créer ensemble.",
+    "description1": "Une idée, un projet ou juste envie de construire quelque chose de cool ? Je suis toute ouïe.",
+    "description2": "Que vous soyez prêt à démarrer ou simplement curieux, n'hésitez pas à me contacter. Voyons ce qu'on peut créer ensemble.",
+    "description3": "Je suis toujours ouverte aux conversations intéressantes, aux opportunités de collaboration ou simplement pour échanger avec d'autres développeurs et créateurs. N'hésitez pas à me contacter via l'une de ces plateformes !",
+    "socialHeading": "Vous pouvez me trouver sur...",
     "form": {
       "labels": {
         "name": "Nom",
@@ -57,7 +59,7 @@
       "validation": {
         "nameRequired": "Le nom est requis",
         "nameMinLength": "Au moins 2 caractères",
-        "emailRequired": "L’email est requis",
+        "emailRequired": "L'email est requis",
         "emailInvalid": "Veuillez entrer une adresse email valide",
         "messageRequired": "Le message est requis",
         "messageMinLength": "Au moins 10 caractères"
@@ -68,12 +70,34 @@
       }
     },
     "success": {
-      "title": "Message envoyé !",
+      "title": "Message envoyé !",
       "description": "Merci pour votre message. Je vous réponds très vite."
     },
     "submissions": {
       "received": "message reçu",
       "receivedPlural": "messages reçus"
+    },
+    "socialLinks": {
+      "github": {
+        "name": "GitHub",
+        "username": "@sabuuuu",
+        "description": "Découvrez mes projets et mon code"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "username": "/in/yafasabrina00",
+        "description": "Connectons-nous professionnellement"
+      },
+      "email": {
+        "name": "Email",
+        "username": "yafasabb@gmail.com",
+        "description": "Envoyez-moi un message direct"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "username": "@sabriina.yf",
+        "description": "Suivez mon parcours visuel"
+      }
     }
   },
   "footer": {

@@ -1,83 +1,107 @@
 {
-    "navbar": {
-        "about": "About",
-        "projects": "Projects", 
-        "contact": "Contact"
+  "navbar": {
+    "about": "About",
+    "projects": "Projects", 
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Yafa Sabrina",
+    "title": "Software Developer",
+    "description_1": "I'm a software engineer who enjoys turning ideas into web apps that actually work (and look good doing it). I've spent the last few years building projects with modern stacks like React, TypeScript, and Node.js, always aiming for that sweet spot between clean code and a smooth user experience.",
+    "description_2": "I like making things that are useful, intuitive, and sometimes just for fun (because why not?). Whether it's a SaaS platform, a mobile app, or a little side project that got out of hand, I love bringing concepts to life and learning something new along the way. Currently exploring backend architecture, system design, and a bit of mobile development too.",
+    "scroll_indicator": "Scroll Down",
+    "social_links": {
+      "email_label": "Email",
+      "github_label": "GitHub", 
+      "linkedin_label": "LinkedIn",
+      "resume_label": "Resume"
     },
-    "hero": {
-        "greeting": "Hi, I'm Yafa Sabrina",
-        "title": "Software Developer",
-        "description_1": "I'm a software engineer who enjoys turning ideas into web apps that actually work (and look good doing it). I've spent the last few years building projects with modern stacks like React, TypeScript, and Node.js, always aiming for that sweet spot between clean code and a smooth user experience.",
-        "description_2": "I like making things that are useful, intuitive, and sometimes just for fun (because why not?). Whether it's a SaaS platform, a mobile app, or a little side project that got out of hand, I love bringing concepts to life and learning something new along the way. Currently exploring backend architecture, system design, and a bit of mobile development too.",
-        "scroll_indicator": "Scroll Down",
-        "social_links": {
-            "email_label": "Email",
-            "github_label": "GitHub", 
-            "linkedin_label": "LinkedIn",
-            "resume_label": "Resume"
-        },
-        "scroll_aria_label": "Scroll to next section"
+    "scroll_aria_label": "Scroll to next section"
+  },
+  "project": {
+    "title": "Projects",
+    "sectionLabel": "My work",
+    "description": "Discover my recent projects that showcase my frontend development skills.",
+    "cta": "More projects on",
+    "projects": {
+      "farmconnect": {
+        "title": "FarmConnect",
+        "description": "A SaaS platform for sheep farming management, built from scratch. Features include livestock tracking, health monitoring, farm and user management, and RFID chip scanning via a Flutter mobile app. I worked across the stack using NestJS, Prisma, React, and Tailwind, with RESTful APIs and weekly Agile sprints. It's one of the first digital agriculture projects of its kind in Algeria, aiming to modernize livestock management through smart tech."
+      },
+      "savvy": {
+        "title": "Savvy – Amazon Price Tracker",
+        "description": "A web app that scrapes Amazon product data and sends email alerts when items drop in price or come back in stock. Built with Next.js 14 and CRON jobs, with a clean dashboard, form validation, and user-friendly notifications."
+      }
     },
-    "project": {
-        "title": "Projects",
-        "sectionLabel": "My work",
-        "description": "Découvrez mes projets récents qui mettent en avant mes compétences en développement frontend.",
-        "cta": "More projects on",
-        "projects": {
-            "farmconnect": {
-            "title": "FarmConnect",
-            "description": "A SaaS platform for sheep farming management, built from scratch. Features include livestock tracking, health monitoring, farm and user management, and RFID chip scanning via a Flutter mobile app. I worked across the stack using NestJS, Prisma, React, and Tailwind, with RESTful APIs and weekly Agile sprints. It's one of the first digital agriculture projects of its kind in Algeria, aiming to modernize livestock management through smart tech."
-            },
-            "savvy": {
-                "title": "Savvy – Amazon Price Tracker",
-                "description": "A web app that scrapes Amazon product data and sends email alerts when items drop in price or come back in stock. Built with Next.js 14 and CRON jobs, with a clean dashboard, form validation, and user-friendly notifications."
-            }
-        },
-        "ariaLabels": {
-            "viewGithub": "View on GitHub",
-            "viewLive": "View live project"
-        }
-    },
-    "contact": {
-        "sectionLabel": "Let's talk",
-        "title": "Contact",
-        "description1": "Got an idea, a project, or just something cool to build? I'm all ears.",
-        "description2": "Whether you're ready to start or just exploring, feel free to reach out. Let's see what we can create together.",
-        "form": {
-            "labels": {
-                "name": "Name",
-                "email": "Email",
-                "message": "Message"
-            },
-            "placeholders": {
-                "name": "Your full name",
-                "email": "your.email@example.com",
-                "message": "Tell me about your project, ideas, or how I can help..."
-            },
-            "validation": {
-                "nameRequired": "Name is required",
-                "nameMinLength": "Name must be at least 2 characters",
-                "emailRequired": "Email is required",
-                "emailInvalid": "Please enter a valid email address",
-                "messageRequired": "Message is required",
-                "messageMinLength": "Message must be at least 10 characters"
-            },
-            "buttons": {
-                "send": "Send Message",
-                "sending": "Sending..."
-            }
-        },
-        "success": {
-            "title": "Message Sent!",
-            "description": "Thank you for reaching out. I'll get back to you soon."
-        },
-        "submissions": {
-            "received": "message received",
-            "receivedPlural": "messages received"
-        }
-    },
-    "footer": {
-        "text": "All rights reserved.",
-        "backToTop": "Back to top"
+    "ariaLabels": {
+      "viewGithub": "View on GitHub",
+      "viewLive": "View live project"
     }
+  },
+  "contact": {
+    "sectionLabel": "Let's talk",
+    "title": "Contact",
+    "description1": "Got an idea, a project, or just something cool to build? I'm all ears.",
+    "description2": "Whether you're ready to start or just exploring, feel free to reach out. Let's see what we can create together.",
+    "description3": "I'm always open to interesting conversations, collaboration opportunities, or just connecting with fellow developers and creators. Feel free to reach out through any of these platforms!",
+    "socialHeading": "You can find me on...",
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "your.email@example.com",
+        "message": "Tell me about your project, ideas, or how I can help..."
+      },
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameMinLength": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "messageRequired": "Message is required",
+        "messageMinLength": "Message must be at least 10 characters"
+      },
+      "buttons": {
+        "send": "Send Message",
+        "sending": "Sending..."
+      }
+    },
+    "success": {
+      "title": "Message Sent!",
+      "description": "Thank you for reaching out. I'll get back to you soon."
+    },
+    "submissions": {
+      "received": "message received",
+      "receivedPlural": "messages received"
+    },
+    "socialLinks": {
+      "github": {
+        "name": "GitHub",
+        "username": "@sabuuuu",
+        "description": "Check out my projects and code"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "username": "/in/yafasabrina00",
+        "description": "Connect with me professionally"
+      },
+      "email": {
+        "name": "Email",
+        "username": "yafasabb@gmail.com",
+        "description": "Drop me a direct message"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "username": "@sabriina.yf",
+        "description": "See my visual journey"
+      }
+    }
+  },
+  "footer": {
+    "text": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
 }
