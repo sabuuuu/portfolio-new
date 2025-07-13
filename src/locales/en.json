@@ -21,21 +21,43 @@
   "project": {
     "title": "Projects",
     "sectionLabel": "My work",
-    "description": "Discover my recent projects that showcase my frontend development skills.",
+    "description": "Here's a curated collection of projects I've worked on, showcasing my experience with modern web and mobile technologies.",
     "cta": "More projects on",
     "projects": {
       "farmconnect": {
         "title": "FarmConnect",
-        "description": "A SaaS platform for sheep farming management, built from scratch. Features include livestock tracking, health monitoring, farm and user management, and RFID chip scanning via a Flutter mobile app. I worked across the stack using NestJS, Prisma, React, and Tailwind, with RESTful APIs and weekly Agile sprints. It's one of the first digital agriculture projects of its kind in Algeria, aiming to modernize livestock management through smart tech."
+        "description": "A SaaS platform for managing sheep farming operations. Features include authentication, user and farm management, livestock tracking, and health monitoring. Includes a mobile RFID-scanning app.",
+        "tech": ["React.js", "NestJS", "Prisma", "Flutter"]
       },
       "savvy": {
-        "title": "Savvy – Amazon Price Tracker",
-        "description": "A web app that scrapes Amazon product data and sends email alerts when items drop in price or come back in stock. Built with Next.js 14 and CRON jobs, with a clean dashboard, form validation, and user-friendly notifications."
+        "title": "Savvy",
+        "description": "Web app to track Amazon product prices and get notified when prices drop or items are back in stock. Uses web scraping and CRON jobs.",
+        "tech": ["Next.js 14", "CRON", "Node-fetch"]
+      },
+      "bibliotech": {
+        "title": "BiblioTech",
+        "description": "A web app for managing a personal reading list. Users can add books, categorize them by reading status, and update progress.",
+        "tech": ["React", "Vite", "Tailwind CSS"]
+      },
+      "lifedrop": {
+        "title": "Lifedrop",
+        "description": "A mobile app for a blood donation association in Algeria. Helps connect donors and recipients by wilaya, with multilingual support and notifications.",
+        "tech": ["React Native", "Firebase", "JSON"]
+      },
+      "eplan": {
+        "title": "E-Plan",
+        "description": "A university project to generate and display exam timetables for all fields and specialties. Includes role-based access for admins, students, and professors.",
+        "tech": ["Django", "React.js", "Vite"]
+      },
+      "watchwave": {
+        "title": "WatchWave",
+        "description": "A TV show search platform using the TF-IDF algorithm to match user keywords with subtitle content, ranking shows by relevance.",
+        "tech": ["Python", "TF-IDF", "NLP", "Flask", "React"]
       }
     },
     "ariaLabels": {
       "viewGithub": "View on GitHub",
-      "viewLive": "View live project"
+      "viewLive": "Live site"
     }
   },
   "contact": {

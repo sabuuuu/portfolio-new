@@ -8,6 +8,7 @@ import {
   Instagram, 
   ExternalLink 
 } from 'lucide-react';
+import BlurText from '../bits/TextAnimations/BlurText/BlurText';
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
@@ -51,7 +52,7 @@ const Contact: React.FC = () => {
     <section id="contact" className="w-[80%]">
       <section className="w-full max-w-7xl mx-auto py-20">
         <div className="text-left mb-16">
-          <p className="text-[#ead3c1] text-xl mb-2">{t('contact.sectionLabel')}</p>
+          <BlurText text={t('contact.sectionLabel')} className="text-[#FCF7F8] text-2xl font-semibold mb-2" />
           <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('contact.title')}</h1>
         </div>
 
