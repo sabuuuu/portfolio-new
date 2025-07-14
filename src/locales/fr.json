@@ -6,8 +6,8 @@
   },
   "hero": {
     "greeting": "Salut, je suis Yafa Sabrina",
-    "title": "Développeuse Logiciel",
-    "description_1": "Je suis une ingénieure logiciel qui aime transformer des idées en applications web qui fonctionnent réellement (et qui sont belles à regarder). J'ai passé ces dernières années à construire des projets avec des technologies modernes comme React, TypeScript et Node.js, visant toujours ce point d'équilibre entre un code propre et une expérience utilisateur fluide.",
+    "title": "Ingénieure Logiciel",
+    "description_1": "Je suis une développeuse logiciel qui aime transformer des idées en applications web qui fonctionnent réellement (et qui sont belles à regarder). J'ai passé ces dernières années à construire des projets avec des technologies modernes comme React, TypeScript et Node.js, visant toujours ce point d'équilibre entre un code propre et une expérience utilisateur fluide.",
     "description_2": "J'aime créer des choses utiles, intuitives, et parfois juste pour le plaisir (pourquoi pas ?). Que ce soit une plateforme SaaS, une application mobile, ou un petit projet personnel qui a pris de l'ampleur, j'adore donner vie aux concepts et apprendre quelque chose de nouveau en chemin. J'explore actuellement l'architecture backend, la conception de systèmes, et un peu de développement mobile aussi.",
     "scroll_indicator": "Faire défiler vers le bas",
     "social_links": {
@@ -17,6 +17,121 @@
       "resume_label": "CV"
     },
     "scroll_aria_label": "Défiler vers la section suivante"
+  },
+  "whatIUse": {
+    "sectionLabel": "Technologies",
+    "title": "Ce que j'utilise",
+    "description": "Voici les outils et technologies avec lesquels je travaille pour donner vie aux idées. Des frameworks frontend aux services backend, ce sont mes choix de prédilection pour construire des applications modernes.",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "technologies": {
+          "react": {
+            "title": "React",
+            "description": "Bibliothèque UI moderne pour construire des interfaces interactives"
+          },
+          "nextjs": {
+            "title": "Next.js",
+            "description": "Framework React full-stack pour la production"
+          },
+          "typescript": {
+            "title": "TypeScript",
+            "description": "JavaScript typé pour un meilleur développement"
+          },
+          "tailwind": {
+            "title": "Tailwind CSS",
+            "description": "Framework CSS utilitaire pour un stylage rapide"
+          },
+          "jest": {
+            "title": "Jest",
+            "description": "Framework de test JavaScript pour l'assurance qualité"
+          },
+          "graphql": {
+            "title": "GraphQL",
+            "description": "Langage de requête pour les APIs et la récupération de données"
+          }
+        }
+      },
+      "backend": {
+        "title": "Backend",
+        "technologies": {
+          "nodejs": {
+            "title": "Node.js",
+            "description": "Runtime JavaScript pour le développement côté serveur"
+          },
+          "nestjs": {
+            "title": "NestJS",
+            "description": "Framework Node.js progressif pour applications évolutives"
+          },
+          "prisma": {
+            "title": "Prisma",
+            "description": "Boîte à outils de base de données moderne et ORM"
+          },
+          "postgresql": {
+            "title": "PostgreSQL",
+            "description": "Système de base de données relationnelle puissant"
+          },
+          "mongodb": {
+            "title": "MongoDB",
+            "description": "Base de données NoSQL pour stockage de données flexible"
+          },
+          "firebase": {
+            "title": "Firebase",
+            "description": "Plateforme Backend-as-a-Service par Google"
+          },
+          "supabase": {
+            "title": "Supabase",
+            "description": "Alternative open source à Firebase"
+          },
+          "django": {
+            "title": "Django",
+            "description": "Framework web Python de haut niveau"
+          }
+        }
+      },
+      "mobile": {
+        "title": "Mobile",
+        "technologies": {
+          "reactnative": {
+            "title": "React Native",
+            "description": "Développement d'applications mobiles multiplateformes"
+          },
+          "flutter": {
+            "title": "Flutter",
+            "description": "Boîte à outils UI de Google pour applications mobiles"
+          }
+        }
+      },
+      "tools": {
+        "title": "Outils",
+        "technologies": {
+          "git": {
+            "title": "Git",
+            "description": "Contrôle de version pour suivre les modifications du code"
+          },
+          "github": {
+            "title": "GitHub",
+            "description": "Plateforme d'hébergement de code pour le contrôle de version"
+          },
+          "docker": {
+            "title": "Docker",
+            "description": "Conteneurisation pour un déploiement cohérent"
+          },
+          "vscode": {
+            "title": "VS Code",
+            "description": "Éditeur de code puissant avec extensions riches"
+          },
+          "postman": {
+            "title": "Postman",
+            "description": "Plateforme de développement et test d'API"
+          },
+          "swagger": {
+            "title": "Swagger",
+            "description": "Outils de documentation et conception d'API"
+          }
+        }
+      }
+    }
   },
   "project": {
     "title": "Projets",

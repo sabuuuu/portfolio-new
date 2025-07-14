@@ -114,7 +114,7 @@ const TechCard = ({ icon, name }: { icon: string; name: string }) => {
   return (
     <div
       className={cn(
-        "flex items-center justify-center px-6 py-2 gap-x-2 rounded-xl bg-[#0e0e0e] border border-gray-50/[.1] hover:bg-[#0e0e0e]/50"
+        "flex items-center justify-center px-6 py-2 gap-x-2 rounded-xl bg-[#0e0e0e]/40 border border-gray-50/[.1] hover:bg-[#0e0e0e]/50"
       )}
     >
       <img

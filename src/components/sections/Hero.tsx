@@ -49,14 +49,14 @@ function Hero() {
   ]
 
   const scrollToNext = () => {
-    const nextSection = document.getElementById('about')
+    const nextSection = document.getElementById('what-i-use')
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' })
     }
   }
 
   return (
-    <section id="about" className="relative mt-8 lg:-mt-20 w-full h-screen flex items-center justify-center overflow-hidden">
+    <section id="about" className="relative mb-36 md:mb-0 md:mt-8 lg:-mt-20 w-full h-screen flex items-center justify-center md:overflow-hidden">
       {showParticles && (
         <div className="absolute inset-0 w-full h-full">
           <Suspense fallback={null}>
@@ -74,7 +74,7 @@ function Hero() {
         </div>
       )}
       {/* Main Content */}
-      <div className="relative   z-10 w-full max-w-7xl mx-auto px-6 h-full flex items-center">
+      <div className="relative z-10 mt-26 md:mt-0 w-full max-w-7xl mx-auto px-6 h-full flex items-center">
         <div className=" grid grid-cols-1 lg:grid-cols-12 gap-8 w-full items-center">
           
           <div className="lg:col-span-4 space-y-6">
@@ -134,10 +134,10 @@ function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+      <div className="absolute -bottom-32 md:bottom-8 left-1/2 transform -translate-x-1/2 z-10">
         <button 
           onClick={scrollToNext}
-          className="flex flex-col items-center text-rose-300 hover:text-white transition-colors duration-300 group"
+          className="flex flex-col items-center text-rose-300 hover:text-rose-400 transition-colors duration-300 group"
           aria-label={t('hero.scroll_aria_label')}
         >
           <span className="text-sm mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

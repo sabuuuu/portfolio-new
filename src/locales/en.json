@@ -18,6 +18,121 @@
     },
     "scroll_aria_label": "Scroll to next section"
   },
+  "whatIUse": {
+    "sectionLabel": "Technologies",
+    "title": "What I Use",
+    "description": "Here are the tools and technologies I work with to bring ideas to life. From frontend frameworks to backend services, these are my go-to choices for building modern applications.",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "technologies": {
+          "react": {
+            "title": "React",
+            "description": "Modern UI library for building interactive interfaces"
+          },
+          "nextjs": {
+            "title": "Next.js",
+            "description": "Full-stack React framework for production"
+          },
+          "typescript": {
+            "title": "TypeScript",
+            "description": "Type-safe JavaScript for better development"
+          },
+          "tailwind": {
+            "title": "Tailwind CSS",
+            "description": "Utility-first CSS framework for rapid styling"
+          },
+          "jest": {
+            "title": "Jest",
+            "description": "JavaScript testing framework for quality assurance"
+          },
+          "graphql": {
+            "title": "GraphQL",
+            "description": "Query language for APIs and data fetching"
+          }
+        }
+      },
+      "backend": {
+        "title": "Backend",
+        "technologies": {
+          "nodejs": {
+            "title": "Node.js",
+            "description": "JavaScript runtime for server-side development"
+          },
+          "nestjs": {
+            "title": "NestJS",
+            "description": "Progressive Node.js framework for scalable applications"
+          },
+          "prisma": {
+            "title": "Prisma",
+            "description": "Modern database toolkit and ORM"
+          },
+          "postgresql": {
+            "title": "PostgreSQL",
+            "description": "Powerful relational database system"
+          },
+          "mongodb": {
+            "title": "MongoDB",
+            "description": "NoSQL database for flexible data storage"
+          },
+          "firebase": {
+            "title": "Firebase",
+            "description": "Backend-as-a-Service platform by Google"
+          },
+          "supabase": {
+            "title": "Supabase",
+            "description": "Open source Firebase alternative"
+          },
+          "django": {
+            "title": "Django",
+            "description": "High-level Python web framework"
+          }
+        }
+      },
+      "mobile": {
+        "title": "Mobile",
+        "technologies": {
+          "reactnative": {
+            "title": "React Native",
+            "description": "Cross-platform mobile app development"
+          },
+          "flutter": {
+            "title": "Flutter",
+            "description": "Google's UI toolkit for mobile apps"
+          }
+        }
+      },
+      "tools": {
+        "title": "Tools",
+        "technologies": {
+          "git": {
+            "title": "Git",
+            "description": "Version control for tracking code changes"
+          },
+          "github": {
+            "title": "GitHub",
+            "description": "Code hosting platform for version control"
+          },
+          "docker": {
+            "title": "Docker",
+            "description": "Containerization for consistent deployment"
+          },
+          "vscode": {
+            "title": "VS Code",
+            "description": "Powerful code editor with rich extensions"
+          },
+          "postman": {
+            "title": "Postman",
+            "description": "API development and testing platform"
+          },
+          "swagger": {
+            "title": "Swagger",
+            "description": "API documentation and design tools"
+          }
+        }
+      }
+    }
+  },
   "project": {
     "title": "Projects",
     "sectionLabel": "My work",

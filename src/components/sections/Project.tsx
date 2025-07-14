@@ -7,11 +7,11 @@ const Project = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="projects" className="mt-16 w-[80%]">
-      <div className="mb-20">
+    <section id="projects" className="md:mt-16 w-[80%]">
+      <div className="md:mb-20">
         <BlurText text={t('project.sectionLabel')} className="text-[#FCF7F8] text-2xl font-semibold mb-2" />
         <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('project.title')}</h1>
-        <p className="text-gray-400 text-base mt-2">
+         <p className="text-red-100/60 leading-relaxed text-lg mt-4 max-w-2xl">
           {t('project.description')}
         </p>
       </div>

@@ -5,7 +5,6 @@ import {
   Mail, 
   Github, 
   Linkedin, 
-  Instagram, 
   ExternalLink 
 } from 'lucide-react';
 import BlurText from '../bits/TextAnimations/BlurText/BlurText';
@@ -37,14 +36,6 @@ const Contact: React.FC = () => {
       icon: Mail,
       color: 'hover:text-red-400 hover:bg-red-800/20',
       description: t('contact.socialLinks.email.description')
-    },
-    {
-      name: t('contact.socialLinks.instagram.name'),
-      username: t('contact.socialLinks.instagram.username'),
-      url: 'https://instagram.com/sabriina.yf',
-      icon: Instagram,
-      color: 'hover:text-pink-400 hover:bg-pink-800/20',
-      description: t('contact.socialLinks.instagram.description')
     }
   ];
 

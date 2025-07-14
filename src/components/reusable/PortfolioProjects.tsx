@@ -74,11 +74,11 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
   const { t } = useTranslation();
   
   return (
-    <Card className="w-[335px] bg-[#0e0e0e] border-gray-700/50 text-[#FCF7F8] shadow-lg rounded-xl overflow-hidden">
+    <Card className="w-[300px] md:w-[335px] bg-[#0e0e0e] border-gray-700/50 text-[#FCF7F8] shadow-lg rounded-xl overflow-hidden">
       <CardHeader className="p-0">
         <img
           src={project.image}
-          alt={t(project.titleKey)} // Use translation for alt text
+          alt={t(project.titleKey)}
           className="w-full h-40 object-cover rounded-t-lg -mt-6"
         />
       </CardHeader>
