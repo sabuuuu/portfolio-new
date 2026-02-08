@@ -7,8 +7,8 @@
   "hero": {
     "greeting": "Salut, je suis Yafa Sabrina",
     "title": "Ingénieure Logiciel",
-    "description_1": "Je suis une développeuse logiciel qui aime transformer des idées en applications web qui fonctionnent réellement (et qui sont belles à regarder). J'ai passé ces dernières années à construire des projets avec des technologies modernes comme React, TypeScript et Node.js, visant toujours ce point d'équilibre entre un code propre et une expérience utilisateur fluide.",
-    "description_2": "J'aime créer des choses utiles, intuitives, et parfois juste pour le plaisir (pourquoi pas ?). Que ce soit une plateforme SaaS, une application mobile, ou un petit projet personnel qui a pris de l'ampleur, j'adore donner vie aux concepts et apprendre quelque chose de nouveau en chemin. J'explore actuellement l'architecture backend, la conception de systèmes, et un peu de développement mobile aussi.",
+    "description_1": "Je suis une ingénieure logicielle passionnée, spécialisée dans le développement d'applications robustes et esthétiques. Avec une expertise dans les stacks modernes comme React, TypeScript et Node.js, je m'efforce de fournir un code propre et des expériences utilisateur exceptionnelles.",
+    "description_2": "Je me spécialise dans la création de solutions utiles et intuitives. Des plateformes complètes aux applications fluides, j'ai à cœur de concrétiser des concepts et d'élargir continuellement mes compétences techniques. Actuellement, j'approfondis mes connaissances en architecture backend et en conception de systèmes.",
     "scroll_indicator": "Faire défiler vers le bas",
     "social_links": {
       "email_label": "Email",
@@ -176,12 +176,12 @@
     }
   },
   "contact": {
-    "sectionLabel": "Parlons",
+    "sectionLabel": "Me Contacter",
     "title": "Contact",
-    "description1": "Une idée, un projet, ou juste quelque chose de cool à construire ? Je suis toute ouïe.",
-    "description2": "Que vous soyez prêt à commencer ou que vous exploriez simplement, n'hésitez pas à me contacter. Voyons ce que nous pouvons créer ensemble.",
-    "description3": "Je suis toujours ouverte aux conversations intéressantes, aux opportunités de collaboration, ou simplement à échanger avec d'autres développeurs et créateurs. N'hésitez pas à me contacter via ces plateformes !",
-    "socialHeading": "Vous pouvez me retrouver sur...",
+    "description1": "Je suis actuellement disponible pour de nouvelles opportunités et collaborations.",
+    "description2": "Si vous avez un projet en tête ou souhaitez discuter de solutions potentielles, n'hésitez pas à me contacter.",
+    "description3": "J'accueille avec plaisir les échanges avec d'autres développeurs et partenaires potentiels. Vous pouvez me joindre via le formulaire ci-dessous ou sur mes réseaux sociaux.",
+    "socialHeading": "Retrouvez-moi sur",
     "form": {
       "labels": {
         "name": "Nom",
@@ -191,7 +191,7 @@
       "placeholders": {
         "name": "Votre nom complet",
         "email": "votre.email@exemple.com",
-        "message": "Parlez-moi de votre projet, vos idées, ou comment je peux vous aider..."
+        "message": "Veuillez décrire votre projet ou demande..."
       },
       "validation": {
         "nameRequired": "Le nom est requis",
@@ -208,7 +208,7 @@
     },
     "success": {
       "title": "Message envoyé !",
-      "description": "Merci de m'avoir contactée. Je vous répondrai bientôt."
+      "description": "Merci de m'avoir contactée. Je répondrai à votre demande sous peu."
     },
     "submissions": {
       "received": "message reçu",
@@ -218,7 +218,7 @@
       "github": {
         "name": "GitHub",
         "username": "@sabuuuu",
-        "description": "Découvrez mes projets et mon code"
+        "description": "Voir mes projets et mon code"
       },
       "linkedin": {
         "name": "LinkedIn",

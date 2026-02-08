@@ -56,27 +56,27 @@ function Hero() {
   }
 
   return (
-    <section id="about" className="relative mb-36 md:mb-0 md:mt-8 lg:-mt-20 w-full h-screen flex items-center justify-center md:overflow-hidden">
+    <section id="about" className="relative mb-6 md:mb-0 md:mt-8 lg:-mt-20 w-full h-screen flex items-center justify-center md:overflow-hidden">
       {showParticles && (
         <div className="absolute inset-0 w-full h-full">
           <Suspense fallback={null}>
-            <Particles     
+            <Particles
               particleColors={['#ffffff', '#ffffff']}
               particleCount={400}
               particleSpread={10}
               speed={0.05}
               particleBaseSize={60}
-              moveParticlesOnHover={true}                
+              moveParticlesOnHover={true}
               alphaParticles={false}
-              disableRotation={false} 
+              disableRotation={false}
             />
           </Suspense>
         </div>
       )}
       {/* Main Content */}
-      <div className="relative z-10 mt-26 md:mt-0 w-full max-w-7xl mx-auto px-6 h-full flex items-center">
+      <div className="relative z-10 md:mt-0 w-full md:max-w-7xl mx-auto px-4 h-full flex items-center">
         <div className=" grid grid-cols-1 lg:grid-cols-12 gap-8 w-full items-center">
-          
+
           <div className="lg:col-span-4 space-y-6">
             <div className="space-y-4">
               <SplitText
@@ -92,8 +92,8 @@ function Hero() {
                 rootMargin="-100px"
                 textAlign="left"
               />
-              
-              <h1 className="text-5xl md:text-6xl font-bold text-[#FCF7F8] leading-tight">
+
+              <h1 className="text-4xl md:text-6xl font-bold text-[#FCF7F8] leading-tight">
                 {t('hero.title')}
               </h1>
             </div>
@@ -119,23 +119,23 @@ function Hero() {
             </div>
           </div>
 
-        <div className="lg:col-span-8 space-y-6">
-          <div className="text-[#FCF7F8] text-lg leading-relaxed space-y-6 max-w-4xl">
-            <p className="text-xl">
-              {t('hero.description_1')}
-            </p>
-            <p>
-              {t('hero.description_2')}
-            </p>
+          <div className="lg:col-span-8 space-y-6">
+            <div className="text-[#FCF7F8] text-lg leading-relaxed space-y-6 max-w-4xl">
+              <p className="text-xl">
+                {t('hero.description_1')}
+              </p>
+              <p>
+                {t('hero.description_2')}
+              </p>
+            </div>
           </div>
-        </div>
 
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute -bottom-32 md:bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-        <button 
+      <div className="absolute -bottom-2 md:bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+        <button
           onClick={scrollToNext}
           className="flex flex-col items-center text-rose-300 hover:text-rose-400 transition-colors duration-300 group"
           aria-label={t('hero.scroll_aria_label')}

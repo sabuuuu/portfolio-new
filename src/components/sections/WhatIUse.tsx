@@ -174,14 +174,14 @@ function WhatIUse() {
   ];
 
   return (
-    <section id="what-i-use" className="w-[80%] mx-auto">
+    <section id="what-i-use" className="w-[90%] md:w-[80%] mx-auto">
       <section className="w-full max-w-7xl mx-auto py-20">
         <div className="text-left mb-16">
-          <BlurText 
-            text={t("whatIUse.sectionLabel")} 
-            className="text-[#FCF7F8] text-2xl font-semibold mb-2" 
+          <BlurText
+            text={t("whatIUse.sectionLabel")}
+            className="text-[#FCF7F8] text-2xl font-semibold mb-2"
           />
-          <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">
+          <h1 className="text-3xl md:text-5xl font-semibold text-[#FCF7F8] leading-tight">
             {t("whatIUse.title")}
           </h1>
           <p className="text-red-100/60 leading-relaxed text-lg mt-4 max-w-2xl">

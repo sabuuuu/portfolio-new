@@ -7,8 +7,8 @@
   "hero": {
     "greeting": "Hi, I'm Yafa Sabrina",
     "title": "Software Developer",
-    "description_1": "I'm a software engineer who enjoys turning ideas into web apps that actually work (and look good doing it). I've spent the last few years building projects with modern stacks like React, TypeScript, and Node.js, always aiming for that sweet spot between clean code and a smooth user experience.",
-    "description_2": "I like making things that are useful, intuitive, and sometimes just for fun (because why not?). Whether it's a SaaS platform, a mobile app, or a little side project that got out of hand, I love bringing concepts to life and learning something new along the way. Currently exploring backend architecture, system design, and a bit of mobile development too.",
+    "description_1": "I am a dedicated software engineer focused on building robust and aesthetically pleasing applications. With expertise in modern stacks like React, TypeScript, and Node.js, I strive to deliver clean code and exceptional user experiences.",
+    "description_2": "I specialize in creating useful and intuitive solutions. From comprehensive platforms to seamless applications, I am passionate about bringing concepts to life and continuously expanding my technical skillset. Currently, I am deepening my knowledge in backend architecture and system design.",
     "scroll_indicator": "Scroll Down",
     "social_links": {
       "email_label": "Email",
@@ -176,12 +176,12 @@
     }
   },
   "contact": {
-    "sectionLabel": "Let's talk",
+    "sectionLabel": "Get in Touch",
     "title": "Contact",
-    "description1": "Got an idea, a project, or just something cool to build? I'm all ears.",
-    "description2": "Whether you're ready to start or just exploring, feel free to reach out. Let's see what we can create together.",
-    "description3": "I'm always open to interesting conversations, collaboration opportunities, or just connecting with fellow developers and creators. Feel free to reach out through any of these platforms!",
-    "socialHeading": "You can find me on...",
+    "description1": "I am currently available for new opportunities and collaborations.",
+    "description2": "If you have a project in mind or would like to discuss potential solutions, please do not hesitate to contact me.",
+    "description3": "I welcome conversations with fellow developers and potential partners. You can reach me via the form below or through my social media channels.",
+    "socialHeading": "Connect with me",
     "form": {
       "labels": {
         "name": "Name",
@@ -191,7 +191,7 @@
       "placeholders": {
         "name": "Your full name",
         "email": "your.email@example.com",
-        "message": "Tell me about your project, ideas, or how I can help..."
+        "message": "Please describe your project or inquiry..."
       },
       "validation": {
         "nameRequired": "Name is required",
@@ -208,7 +208,7 @@
     },
     "success": {
       "title": "Message Sent!",
-      "description": "Thank you for reaching out. I'll get back to you soon."
+      "description": "Thank you for reaching out. I will respond to your inquiry shortly."
     },
     "submissions": {
       "received": "message received",
@@ -218,7 +218,7 @@
       "github": {
         "name": "GitHub",
         "username": "@sabuuuu",
-        "description": "Check out my projects and code"
+        "description": "View my projects and code"
       },
       "linkedin": {
         "name": "LinkedIn",
@@ -228,12 +228,12 @@
       "email": {
         "name": "Email",
         "username": "yafasabb@gmail.com",
-        "description": "Drop me a direct message"
+        "description": "Send me a direct message"
       },
       "instagram": {
         "name": "Instagram",
         "username": "@sabriina.yf",
-        "description": "See my visual journey"
+        "description": "Follow my visual journey"
       }
     }
   },

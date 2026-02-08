@@ -136,7 +136,7 @@ export default function Stack() {
       </Marquee>
 
       <div
-        className="pointer-events-none absolute inset-y-0 left-0 w-1/7"
+        className="pointer-events-none absolute inset-y-0 left-0 w-1/6"
         style={{
           background:
             'linear-gradient(90deg, #0a0a0a 0%, rgba(10,10,10,0.8) 50%, rgba(10,10,10,0) 100%)',
@@ -144,7 +144,7 @@ export default function Stack() {
       ></div>
 
       <div
-        className="pointer-events-none absolute inset-y-0 right-0 w-1/7"
+        className="pointer-events-none absolute inset-y-0 right-0 w-1/6"
         style={{
           background:
             'linear-gradient(270deg, #0a0a0a 0%, rgba(10,10,10,0.8) 50%, rgba(10,10,10,0) 100%)',

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '../ui/card';
-import { 
-  Mail, 
-  Github, 
-  Linkedin, 
-  ExternalLink 
+import {
+  Mail,
+  Github,
+  Linkedin,
+  ExternalLink
 } from 'lucide-react';
 import BlurText from '../bits/TextAnimations/BlurText/BlurText';
 
@@ -40,11 +40,11 @@ const Contact: React.FC = () => {
   ];
 
   return (
-    <section id="contact" className="w-[80%]">
+    <section id="contact" className="w-[90%] md:w-[80%]">
       <section className="w-full max-w-7xl mx-auto py-20">
         <div className="text-left mb-16">
           <BlurText text={t('contact.sectionLabel')} className="text-[#FCF7F8] text-2xl font-semibold mb-2" />
-          <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('contact.title')}</h1>
+          <h1 className="text-3xl md:text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('contact.title')}</h1>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -68,12 +68,12 @@ const Contact: React.FC = () => {
             {socialLinks.map((social, index) => {
               const IconComponent = social.icon;
               return (
-                <Card 
-                  key={index} 
+                <Card
+                  key={index}
                   className={`border-0 bg-gradient-to-br from-[#1a1a1a]/30 to-[#0a0a0a]/20 relative overflow-hidden transition-all duration-300 hover:from-[#1a1a1a]/40 hover:to-[#0a0a0a]/30 cursor-pointer group ${social.color}`}
                 >
                   <CardContent className="p-6 relative z-10">
-                    <a 
+                    <a
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"

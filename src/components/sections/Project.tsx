@@ -7,23 +7,23 @@ const Project = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="projects" className="md:mt-16 w-[80%]">
+    <section id="projects" className="md:mt-16 w-[90%] md:w-[80%]">
       <div className="md:mb-20">
         <BlurText text={t('project.sectionLabel')} className="text-[#FCF7F8] text-2xl font-semibold mb-2" />
-        <h1 className="text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('project.title')}</h1>
-         <p className="text-red-100/60 leading-relaxed text-lg mt-4 max-w-2xl">
+        <h1 className="text-3xl md:text-5xl font-semibold text-[#FCF7F8] leading-tight">{t('project.title')}</h1>
+        <p className="text-red-100/60 leading-relaxed text-lg mt-4 max-w-2xl">
           {t('project.description')}
         </p>
       </div>
-      
+
       <div>
         <PortfolioProjects />
       </div>
-      
+
       <div>
-        <a 
-          href="https://github.com/sabuuuu" 
-          target="_blank" 
+        <a
+          href="https://github.com/sabuuuu"
+          target="_blank"
           className="flex items-center justify-center gap-2 mt-6 w-full px-6 py-4 bg-[#0e0e0e] text-[#FCF7F8] rounded-xl border border-gray-700/50 hover:bg-[#0e0e0e]/50 transition-colors duration-300"
         >
           {t('project.cta')} <Github size={16} />
