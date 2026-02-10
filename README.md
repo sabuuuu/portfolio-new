@@ -1,7 +1,7 @@
 # Portfolio 2.0
 
 A modern, interactive developer portfolio built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. Features smooth animations, internationalization, and a beautiful dark UI design.
-
+                                                    
 ## ✨ Features
 
 - ⚡️ **Fast Development** - Vite-based build system
